@@ -1,0 +1,24 @@
+.buttons_form button{
+	padding: 10px;
+	width: 30%;
+	color:white;
+	@include border-radius(5px);
+	@include transition(.4s);
+	&:hover{
+		background-color:white;
+		color:black;
+	}
+}
+.board_buttons{
+	padding:5px;
+	@extend .buttons_form;
+	button{background-color: grey;
+		width: 100%;
+		@include border-radius(3px);
+
+	}
+	.active{
+		background-color:$login-bg;
+	}
+
+}

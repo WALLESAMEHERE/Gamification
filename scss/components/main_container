@@ -1,0 +1,8 @@
+.container{	 
+	padding-top: 5%;
+	margin:0;
+}
+section {
+    background-color: $light-silver;
+    color: black;
+}

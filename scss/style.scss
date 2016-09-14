@@ -1,0 +1,26 @@
+*{
+	box-sizing:border-box;
+}
+figure{
+	margin:0px;
+}
+img{
+	width:100%;
+}
+ span{
+ 	cursor: pointer;
+ }
+.new_info{
+	position:absolute;
+	content: "";
+	top:1px;
+	right: 1px;
+	background-color: #EB2A81;
+	padding: 0px 6px 4px 6px;
+	line-height: .8;
+	@include border-radius(100%);
+	text-align: center;	 
+ }
+.border{
+	border:$border;
+}

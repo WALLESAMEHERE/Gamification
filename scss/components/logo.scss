@@ -1,0 +1,7 @@
+.logo{
+	img{
+		@extend .border;
+		@include border-radius(10px); 
+	}
+}
+
